@@ -135,5 +135,5 @@ This example will extemd the class com.mirth.connect.connectors.ws.AcceptMessage
     	*	Redeploy the channel if you made any changes to it.
 
  5.	You can now create your own custom web service listener
-![](/./../Images/ScreenShot1.png")
+![](/./../Images/ScreenShot1.png)
 
