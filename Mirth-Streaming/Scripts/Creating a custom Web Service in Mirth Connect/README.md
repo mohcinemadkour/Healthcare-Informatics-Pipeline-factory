@@ -121,10 +121,8 @@ This example will extemd the class com.mirth.connect.connectors.ws.AcceptMessage
 	At first this channel won't yet work; we need to include the JAR that we just created.
 
 	* Mirth Connect 3.1.1 or earlier
-
-	.. * Drop the JAR file into the lib/custom folder (for version 1.8.2 or earlier) or custom-lib (for versions 2.0.0 through 3.1.1) under your Mirth Connect home directory. This way, the classloader should be able to locate it.
-	
-    .. * Restart the Mirth Connect service, and login to the Administrator.
+		* Drop the JAR file into the lib/custom folder (for version 1.8.2 or earlier) or custom-lib (for versions 2.0.0 through 3.1.1) under your Mirth Connect home directory. This way, the classloader should be able to locate it.
+		* Restart the Mirth Connect service, and login to the Administrator.
 
     *  Mirth Connect 3.2.0 or later
 
