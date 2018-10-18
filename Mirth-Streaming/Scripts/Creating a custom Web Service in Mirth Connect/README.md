@@ -127,13 +127,13 @@ This example will extemd the class com.mirth.connect.connectors.ws.AcceptMessage
     *  Mirth Connect 3.2.0 or later
     	*	In 3.2 or later you can define custom resources to point to any directory you want. So you can drop the JAR file into the custom-lib folder, or create a new folder anywhere on the server filesystem.
     	*	Restarting Mirth Connect is not required. Instead, in the Administrator navigate to the Settings -> Resources tab. 
-    			![](./../Images/Resources1.png)
+    			![](./../../Images/Resources1.png)
     	*	Create a new Directory resource if needed. If you're just using the custom-lib folder, and the default resource is pointing to custom-lib (it will by default), then you only need to hit Reload Resource and the JAR will automatically be picked up. Hit the refresh button if the JAR doesn't show up initially. You should now see it in the Loaded Libraries table at the bottom.
-    			![](./../Images/Resources2.png)
+    			![](./../../Images/Resources2.png)
     	*	Edit the channel you want to use the resource with, go to the Summary tab, and click the Set Libraries button. Make sure the resource is checked for the context you want to use it in. If you're using the default resource, it should already be checked by default.
-    			![](./../Images/SetLibraries.png)
+    			![](./../../Images/SetLibraries.png)
     	*	Redeploy the channel if you made any changes to it.
 
  5.	You can now create your own custom web service listener
-![](./Images/ScreenShot1.png)
+![](./../../Images/ScreenShot1.png)
 
